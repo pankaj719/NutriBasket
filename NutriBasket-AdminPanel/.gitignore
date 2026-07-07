@@ -1,0 +1,16 @@
+node_modules/
+/storage/*.key
+vendor/
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+error_log
+/storage/tmp
+.DS_Store
+.DS_Store
+# Ignore the English messages translation file
+resources/lang/en/messages.php
+messages.php

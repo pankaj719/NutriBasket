@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "789317166563",
+    "project_id": "nutribasket-1fad9",
+    "storage_bucket": "nutribasket-1fad9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789317166563:android:9e317dcfe514dac59a6cd6",
+        "android_client_info": {
+          "package_name": "in.nutribasket.delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789317166563-8f5aagsf13fertk55phibde1j60vhn5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.nutribasket.delivery_app",
+            "certificate_hash": "1f0a5f9911c00d693b36daa3f6f20140913f5a86"
+          }
+        },
+        {
+          "client_id": "789317166563-2gfhskjgst8nd1q3fa7fo9o6eqr1o1sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh0GT9sKvGS0kb_34iTwJaCcgU20EJxJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789317166563-2gfhskjgst8nd1q3fa7fo9o6eqr1o1sf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "789317166563-2osrnf60iue86lb2otehjksgurk3jhvi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sixamtech.6amMart"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789317166563:android:6f858d00522200eb9a6cd6",
+        "android_client_info": {
+          "package_name": "in.nutribasket.delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789317166563-15tsc674a8gs7fs5dv8tkoopcnjsuosr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.nutribasket.delivery_app",
+            "certificate_hash": "d16789b913f5503d175270282b15d4b32ae0396f"
+          }
+        },
+        {
+          "client_id": "789317166563-2gfhskjgst8nd1q3fa7fo9o6eqr1o1sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh0GT9sKvGS0kb_34iTwJaCcgU20EJxJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789317166563-2gfhskjgst8nd1q3fa7fo9o6eqr1o1sf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "789317166563-2osrnf60iue86lb2otehjksgurk3jhvi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sixamtech.6amMart"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789317166563:android:ae0cdbcb2bae91889a6cd6",
+        "android_client_info": {
+          "package_name": "in.nutribasket.delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789317166563-qpgo0k66u6sbn7d7rb7md1bjs9tdpfq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.nutribasket.delivery_app",
+            "certificate_hash": "85a4e63d4df05a356ff0f4a097fc0c14f93abbdb"
+          }
+        },
+        {
+          "client_id": "789317166563-2gfhskjgst8nd1q3fa7fo9o6eqr1o1sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh0GT9sKvGS0kb_34iTwJaCcgU20EJxJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789317166563-2gfhskjgst8nd1q3fa7fo9o6eqr1o1sf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "789317166563-2osrnf60iue86lb2otehjksgurk3jhvi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.nutribasket.delivery_app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

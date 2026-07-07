@@ -1,0 +1,58 @@
+Analyzing order_details_screen.dart...                          
+
+warning - Unused import: 'dart:io' - lib\features\order\screens\order_details_screen.dart:2:8 - unused_import
+warning - Unused import: 'package:dotted_border/dotted_border.dart' - lib\features\order\screens\order_details_screen.dart:3:8 - unused_import
+warning - Unused import: 'package:image_picker/image_picker.dart' - lib\features\order\screens\order_details_screen.dart:4:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/language/controllers/language_controller.dart' - lib\features\order\screens\order_details_screen.dart:6:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/notification/controllers/notification_controller.dart' - lib\features\order\screens\order_details_screen.dart:7:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/notification/domain/models/notification_body_model.dart' - lib\features\order\screens\order_details_screen.dart:11:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/chat/domain/models/conversation_model.dart' - lib\features\order\screens\order_details_screen.dart:12:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/order/domain/models/order_details_model.dart' - lib\features\order\screens\order_details_screen.dart:13:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/helper/price_converter_helper.dart' - lib\features\order\screens\order_details_screen.dart:15:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/helper/responsive_helper.dart' - lib\features\order\screens\order_details_screen.dart:16:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/util/app_constants.dart' - lib\features\order\screens\order_details_screen.dart:18:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/util/images.dart' - lib\features\order\screens\order_details_screen.dart:20:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/util/styles.dart' - lib\features\order\screens\order_details_screen.dart:21:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/common/widgets/confirmation_dialog_widget.dart' - lib\features\order\screens\order_details_screen.dart:22:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/common/widgets/custom_button_widget.dart' - lib\features\order\screens\order_details_screen.dart:24:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/common/widgets/custom_image_widget.dart' - lib\features\order\screens\order_details_screen.dart:25:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/common/widgets/custom_snackbar_widget.dart' - lib\features\order\screens\order_details_screen.dart:26:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/order/widgets/camera_button_sheet_widget.dart' - lib\features\order\screens\order_details_screen.dart:27:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/order/widgets/cancellation_dialogue_widget.dart' - lib\features\order\screens\order_details_screen.dart:28:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/order/widgets/collect_money_delivery_sheet_widget.dart' - lib\features\order\screens\order_details_screen.dart:29:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/order/widgets/order_item_widget.dart' - lib\features\order\screens\order_details_screen.dart:30:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/order/widgets/verify_delivery_sheet_widget.dart' - lib\features\order\screens\order_details_screen.dart:31:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/order/widgets/info_card_widget.dart' - lib\features\order\screens\order_details_screen.dart:32:8 - unused_import
+warning - Unused import: 'package:sixam_mart_delivery/features/order/widgets/slider_button_widget.dart' - lib\features\order\screens\order_details_screen.dart:33:8 - unused_import
+warning - The value of the local variable 'cancelPermission' isn't used - lib\features\order\screens\order_details_screen.dart:102:11 - unused_local_variable
+warning - The value of the local variable 'selfDelivery' isn't used - lib\features\order\screens\order_details_screen.dart:104:10 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:136:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:136:38 - prefer_const_constructors
+  error - Illegal character '0' - lib\features\order\screens\order_details_screen.dart:144:26 - illegal_character
+  error - Unterminated string literal - lib\features\order\screens\order_details_screen.dart:144:36 - unterminated_string_literal
+  error - Expected to find ',' - lib\features\order\screens\order_details_screen.dart:144:38 - expected_token
+  error - Expected to find ',' - lib\features\order\screens\order_details_screen.dart:144:40 - expected_token
+  error - Undefined name '$' - lib\features\order\screens\order_details_screen.dart:144:40 - undefined_identifier
+  error - Expected to find ',' - lib\features\order\screens\order_details_screen.dart:144:41 - expected_token
+  error - Expected to find ',' - lib\features\order\screens\order_details_screen.dart:144:72 - expected_token
+  error - Unterminated string literal - lib\features\order\screens\order_details_screen.dart:144:74 - unterminated_string_literal
+  error - Expected to find ',' - lib\features\order\screens\order_details_screen.dart:145:21 - expected_token
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:151:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:151:54 - prefer_const_constructors
+  error - Expected an identifier - lib\features\order\screens\order_details_screen.dart:152:21 - missing_identifier
+  error - Expected to find ')' - lib\features\order\screens\order_details_screen.dart:152:21 - expected_token
+  error - Expected to find ',' - lib\features\order\screens\order_details_screen.dart:152:21 - expected_token
+  error - The getter 'contactPersonEmail' isn't defined for the type 'DeliveryAddress' - lib\features\order\screens\order_details_screen.dart:155:76 - undefined_getter
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:165:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:165:46 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:173:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:173:43 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:181:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:181:59 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:189:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:189:55 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:197:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:197:43 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:204:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\order\screens\order_details_screen.dart:204:46 - prefer_const_constructors
+

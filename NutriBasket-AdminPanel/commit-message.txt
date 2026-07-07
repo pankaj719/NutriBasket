@@ -1,0 +1,24 @@
+feat: Implement comprehensive B2B order management system
+
+- Add dedicated B2BOrderController with full CRUD operations
+- Create separate B2B order views with multi-stage workflow:
+  * Pending: Normal order table with detailed information
+  * Processing: 3-view system (stock difference, total order, by customer)
+  * Preparing: 2-option system (update inventory, accept by customer)
+- Implement stock difference reporting and export functionality
+- Add bulk processing capabilities for B2B orders
+- Create B2B-specific table partial (_b2b_table.blade.php)
+- Add all necessary routes for B2B order management
+- Fix sidebar styling consistency for B2B order menu items
+- Implement inventory management for B2B orders
+- Add customer acceptance workflow for B2B orders
+- Create export functionality for Excel/CSV downloads
+- Ensure B2B orders maintain same detailed presentation as normal orders
+- Add proper error handling and validation throughout
+
+This commit establishes a complete B2B order management system that
+separates B2B orders from regular orders while maintaining feature parity
+and adding specialized B2B-specific functionality like bulk processing,
+stock management, and customer acceptance workflows.
+
+
