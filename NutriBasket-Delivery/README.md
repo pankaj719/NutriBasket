@@ -1,16 +1,39 @@
-# sixam_mart_delivery
+# 🛵 NutriBasket Delivery Application
 
-A new Flutter application.
+This is the delivery agent/rider companion mobile application for **NutriBasket**, a multi-vendor B2B and B2C grocery & food delivery ecosystem.
 
-## Getting Started
+Delivery personnel use this application to receive dispatch orders, navigate optimal routes to target destinations, manage Cash on Delivery (COD) transactions, and update order statuses in real-time.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Key Features
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* **Route Navigation**: Maps out location nodes using `google_maps_flutter` and geocoding services to assist riders.
+* **COD & Earnings Log**: Digital wallets tracking driver payments, pending collections, and payout requests.
+* **Instant Chat**: Integrated messaging lines allowing riders to coordinate immediately with store vendors or customers.
+* **Real-Time Dispatching**: Instant push notifications via Firebase Cloud Messaging (FCM) when a new order is ready for pickup.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+* **Flutter SDK**: `3.27.4`
+* **Dart SDK**: Compatible with Flutter SDK `3.27.4` (target environment: `sdk: '>=3.2.0 <4.0.0'`)
+
+### Setup and Running
+
+1. **Get dependencies**:
+   ```bash
+   flutter pub get
+   ```
+
+2. **Run the application**:
+   ```bash
+   # Run in debug mode
+   flutter run
+
+   # Build Android release APK
+   flutter build apk --release
+   ```

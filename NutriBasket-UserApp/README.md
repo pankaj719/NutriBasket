@@ -1,17 +1,45 @@
-# sixam_mart
+# 🛒 NutriBasket Customer Application
 
-A new Flutter application.
+This is the customer storefront mobile application for **NutriBasket**, a multi-vendor B2B and B2C grocery & food delivery ecosystem. 
 
-## Getting Started
-## flutter sdk: 3.27.4
+Customers and B2B corporate ordering centers use this application to browse items, place orders, make secure payments, and track their active deliveries in real-time.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Key Features
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* **B2B & B2C Ordering**: Integrates both retail grocery/food purchases and corporate B2B client contracts.
+* **Order Modifications & NA Item Alerts**: Displays clear warnings if packaging staff marks items as **"NA" (Not Available)** or modifies quantities, showing reason logs and subtotal calculations.
+* **GetX State Management**: High-speed, responsive screens with a reactive state.
+* **Secure Checkout**: Multi-payment gateway integrations (Stripe, Razorpay, Paytm, etc.) along with customer wallets and loyalty point conversions.
+* **Live Route Tracking**: Pinpoint delivery addresses and track active riders on an interactive map.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+* **Flutter SDK**: `3.27.4`
+* **Dart SDK**: Compatible with Flutter SDK `3.27.4` (target environment: `sdk: '>=3.2.0 <4.0.0'`)
+
+### Setup and Running
+
+1. **Get dependencies**:
+   ```bash
+   flutter pub get
+   ```
+
+2. **Generate model adapter classes** (if applicable):
+   ```bash
+   flutter pub run build_runner build --delete-conflicting-outputs
+   ```
+
+3. **Run the application**:
+   ```bash
+   # Run in debug mode
+   flutter run
+
+   # Build Android release APK
+   flutter build apk --release
+   ```
